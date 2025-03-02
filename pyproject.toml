@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nannyml-test"
+version = "0.1.0"
+description = ""
+authors = ["James Bristow <jbris@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python =  ">=3.10,<3.13"
+kaleido = "0.2.1"
+nannyml = "^0.13.0"
+pandas = "^2.2.3"
+scipy = "^1.15.2"
+pydantic-core = "<2.30"
+matplotlib = "^3.10.1"
+plotly = "<6.0"
+ipython = "^8.28.0"
+ipywidgets = "^8.1.5"
+jupyter-core = "^5.7.2"
+jupyterlab = "^4.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
